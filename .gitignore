@@ -1,0 +1,48 @@
+# ─── Model Dosyaları (Drive'dan indirin) ─────────────────────────────────────
+# Büyük model dosyaları GitHub'a eklenmez.
+# İndirme linki: https://drive.google.com/file/d/1KdaHvkAM_U09jszSmxhDNSG5MWsgDW2H/view?usp=drive_link
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+
+# ─── Python ───────────────────────────────────────────────────────────────��──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ─── Sanal Ortam ─────────────────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Veri Dosyaları ──────────────────────────────────────────────────────────
+*.csv
+*.zip
+*.tar.gz
+*.tar
+data/
+dataset/
+train/
+test/
+val/
+
+# ─── Streamlit ───────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── IDE / OS ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+*.log
